@@ -1,5 +1,6 @@
 :root {
     --background-color: #1A1A1A;
+    --white : #ffffff;
 
 }
 
@@ -12,4 +13,8 @@
 body {
     min-height: 100vh;
     background: var(--background-color);
+}
+
+h1,h2,h3,p {
+    color: var(--white);
 }
